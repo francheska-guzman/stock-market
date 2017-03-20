@@ -14,13 +14,12 @@ body {
 }
 
 h1 {
-	color: #FFFFFF;
-	font-family: 'Halant', serif;
+
 }
 
 h2 {
 	color: #498bd1;
-	font-size: 35px;
+	font-size: 25px;
 	font-family: 'Halant', serif;
 }
 
@@ -29,6 +28,30 @@ h3 {
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Halant', serif;
+}
+
+h4 {
+	font-size: 40px;
+}
+
+h5 {
+	font-size: 35px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+.type {
+	color: #1c1b1b;
+	font-size: 20px;
+	padding: 0 10px 0 0;
+}
+
+.data {
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 header {
@@ -102,7 +125,7 @@ li a:hover, .dropdown:hover {
 	display: none;
     position: absolute;
 	background-color: #848383;
-	opacity: .85;
+	opacity: .9;
 }
 
 .content a {
@@ -125,6 +148,15 @@ li a:hover, .dropdown:hover {
 
 /* SlideShow of News */
 
+.container {
+	display: flex;
+}
+
+.columnContainer {
+	flex: 1;
+	flex-direction: column;
+}
+
 .newsSlides {
 	flex: 2;
 	width: 100%;
@@ -133,17 +165,23 @@ li a:hover, .dropdown:hover {
 }
 
 #headline {
-	margin: 0;
 	flex: 1;
-	height: 330px;
+	height: 300px;
 	background-color: #111111;
 	color: #dddddd;
 	text-align: center;
 	padding: 25px;
 }
 
+#myButtons {
+	flex: 1;
+	height: 30px;
+	text-align: center;
+	background-color: #111111;
+}
+
 .back-button, .forward-button {
-	width: 100px;
+	width: 40%;
 	height: 30px;
 	border: none;
 	color: #FFFFFF;
@@ -155,10 +193,6 @@ li a:hover, .dropdown:hover {
 }
 
 /* Stock Market Index */
-
-.container {
-	display: flex;
-}
 
 .smi {
 	flex: 1;
@@ -265,4 +299,22 @@ td {
 td:hover {
 	color: #FFFFFF;
 	background-color: #0d233a;
+}
+
+#company {
+	background-image: url("images/whitebackground.jpg");
+	background-repeat: no-repeat;
+	padding: 40px;
+}
+
+.summary {
+	flex: 1;
+}
+
+.graphic {
+	flex: 2;
+}
+
+.graphicImage {
+	border: 1px solid #0c6a96;
 }
