@@ -1,0 +1,155 @@
+<!--
+Francheska Guzman
+Final Project: March 23, 2017
+Cycle 2 Cohort 4
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="myStyle.css"><!-- External CSS File. -->
+	<title>FinTech</title>
+</head>
+
+<header>
+	<div id="logo"><!-- FinTech Logo and Log In/Log Out Button. -->
+		<h1>Fin<span class="large">Tech</span></h1>
+	</div>
+		<p class="rightMsg">Hello, Francheska.<br/>Last log in: 03/23/2017</p>
+		<button id="log" type="button" value="text" onclick="changeLog()">Log out</button>
+	<nav><!-- Navigation Bar with Dropdown Menu. -->
+		<ul>
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#" class="active">Page</a></li>
+		<li class="dropdown"><a href="#">Dropdown</a><!-- Dropdown -->
+	 		<div class="content">
+	  			<a href="#">Page 1</a>
+	   			<a href="#">Page 2</a>
+	    		<a href="#">Page 3</a>
+	    	</div>
+		</ul>
+	</nav>
+</header>
+
+<body>
+<div class="container">
+	<!-- SlideShow of News -->
+		<img class="newsSlides" src="images/ss1.jpeg">
+		<img class="newsSlides" src=" ">
+		<img class="newsSlides" src=" ">
+		<img class="newsSlides" src=" ">
+		<img class="newsSlides" src=" ">
+	<div id="headline">
+		<h2 class="theNews">Beauty and the Beast Clobbers Record With $170 Million Opening</h2>
+		<h2 class="theNews">Headline 2</h2>
+		<h2 class="theNews">Headline 3</h2>
+		<h2 class="theNews">Headline 4</h2>
+		<h2 class="theNews">Headline 5</h2>
+			<button class="back-button" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="forward-button" onclick="plusDivs(+1)">&#10095;</button>	
+	</div>
+</div>
+
+<div class="container"><!-- Stock Market Index -->
+	<div class="smi">
+		<p>Dow 30<br/><span class="l">20,914.62 / -19.93</span></p>
+	</div>
+	<div class="smi">
+		<p>Nasdaq<br/><span class="g">5,901.00 / +0.24</span></p>
+	</div>
+	<div class="smi">
+		<p>S&P 500<br/><span class="l">2,378.25 / -3.13</span></p>
+	</div>
+</div>
+
+<marquee id="stockTickerTape" behavior="scroll" direction="left" scrollamount="3">
+<span class="loss"> JPM $90.68 &#9660; -1.05% </span>
+<span class="gain"> MSFT $64.87 &#9650; +0.36% </span>
+<span class="loss"> AXP $70.25 &#9660; -0.65% </span>
+<span class="loss"> PZI $18.28 &#9660; -1.44% </span>
+<span class="gain"> KO $42.03 &#9650; +0.52% </span>
+<span class="gain"> GE $29.88 &#9650; +0.44% </span>
+<span class="loss"> F $12.48 &#9660; -1.73% </span>	
+<span class="gain"> DIS $111.76 &#9650; +0.04% </span>
+<span class="gain"> LIT $27.00 &#9650; +0.82% </span>
+<span class="loss"> AAPL $139.99 &#9660; -0.50% </span>
+<span class="gain"> MCD $128.64 &#9650; +0.52% </span>
+<span class="gain"> V $90.24 &#9650; +0.22% </span>
+<span class="gain"> MMM $192.36 &#9650; +1.08% </span>
+<span class="loss"> PG $91.00 &#9660; -0.48% </span>
+<span class="gain"> RETL $32.45 &#9650; +1.41% </span>
+</marquee>
+
+<div id="myFinance">
+	<div id="watchlist"><!-- Watchlist -->
+		<h3>My Watchlist</h3>
+			<table>
+				<tr>
+					<th class="long">Name</th>
+					<th class="short">Symbol</th>
+					<th class="long">Last Price</th>
+					<th class="long">Change</th>
+					<th class="long">Volume</th>
+					<th class="short">Open</th>
+					<th class="short">High</th>
+					<th class="short">Low</th>
+				</tr>
+				<tr>
+					<td>Apple Inc.</td>
+					<td>AAPL</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Google</td>
+					<td>GOOG</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	<div id="portfolio"><!-- Portfolio -->
+		<h3>My Portfolio</h3>
+	</div>
+</div>
+<script src="myScript.js"></script><!-- External JS File -->
+</body>
+</html>

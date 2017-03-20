@@ -1,0 +1,234 @@
+/*
+Francheska Guzman
+Final Project: March 23, 2017
+Cycle 2 Cohort 4
+*/
+
+body {
+	margin: 0%;
+	background-image: url("images/");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+
+}
+
+h3 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	background-color: #232323;
+	display: inline-block;
+	height: 122px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	margin-left: 50px;
+}
+
+/* Log in and Log out */
+
+.rightMsg {
+	text-align: right;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin: 20px 40px 10px 0;
+}
+
+#log {
+	float: right;
+	margin: 0 40px 10px 0;
+}
+
+/* Navigation bar */
+
+nav {
+	width: 100%;
+	display: block;
+	position: absolute;
+}
+
+ul {
+	background-color: #302f2f;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+li a {
+	width: 140px;
+	padding: 12px 8px;
+	display: block;
+	font-family: helvetica;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+li a:hover, .dropdown:hover {
+    background-color: #5e5c5c;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.content {
+	min-width: 200px;
+	display: none;
+    position: absolute;
+	background-color: #848383;
+	opacity: .85;
+}
+
+.content a {
+	min-width: 200px;
+	color: #000000;
+	padding: 12px 16px;
+	display: block;
+    text-align: left;
+	text-decoration: none;
+}
+
+.content a:hover {
+    background-color: #bababa;
+    color: #000000;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+/* SlideShow of News */
+
+.newsSlides {
+	flex: 2;
+	width: 100%;
+	height: 350px;
+	background-color: #141414;
+}
+
+#headline {
+	margin: 0;
+	flex: 1;
+	height: 300px;
+	background-color: #191919;
+	color: #dddddd;
+	text-align: center;
+	padding: 25px;
+}
+
+.back-button, .forward-button {
+	width: 100px;
+	height: 30px;
+	border: none;
+	color: #FFFFFF;
+	background-color: #0d233a;
+}
+
+.back-button:hover, .forward-button:hover {
+	background-color: #19487a;
+}
+
+/* Stock Market Index */
+
+.container {
+	display: flex;
+}
+
+.smi {
+	flex: 1;
+	height: 80px;
+	font-size: 20px;
+	text-align: center;
+	color: #635e5e;
+	background-color: #232121;
+	display: inline-block;
+}
+
+#stockTickerTape {
+	width: 100%;
+	background-color: #111111;
+	padding: 5px;
+}
+
+#myFinance {
+	background-image: url("images/gbackground.png");
+	display: inline-block;
+	width: 100%;
+}
+
+#watchlist {
+	height: 250px;
+}
+
+#portfolio {
+	height: 250px;
+}
+
+.g {
+	color: #1a8218; /* Green */
+	font-size: 20px;
+}
+
+.l {
+	color: #b20707; /* Red */
+	font-size: 20px;
+}
+
+.gain {
+	color: #1a8218; /* Green */
+	font-size: 18px;
+	padding: 0 10px 0 10px;
+}
+
+.loss {
+	color: #b20707; /* Red */
+	font-size: 18px;
+	padding: 0 15px 0 15px;
+}
+
+.short {
+	width: 70px;
+}
+
+.long {
+	width: 150px;
+}
+
+table {
+	border-spacing: 0;
+	padding: 10px;
+	opacity: .6;
+}
+
+th {
+	text-align: center;
+	background-color: #e0e0e0;
+	color: #000000;
+	font-size: 18px;
+}
+
+td {
+	text-align: center;
+	background-color: #e0e0e0;
+	color: #000000;
+	font-size: 16px;
+}
