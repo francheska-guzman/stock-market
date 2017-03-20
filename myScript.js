@@ -4,7 +4,7 @@ showDivs(slideIndex);
 function plusDivs(n) {
 	showDivs(slideIndex += n);
 }
-
+/*Change to JQuery*/
 function showDivs(n) {
 	var i = 0;
 	var x = document.getElementsByClassName("newsSlides");
