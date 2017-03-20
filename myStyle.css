@@ -3,9 +3,11 @@ Francheska Guzman
 Final Project: March 23, 2017
 Cycle 2 Cohort 4
 */
+@import url('https://fonts.googleapis.com/css?family=Halant');
 
 body {
 	margin: 0%;
+	background-color: #141414;
 	background-image: url("images/");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -13,15 +15,20 @@ body {
 
 h1 {
 	color: #FFFFFF;
+	font-family: 'Halant', serif;
 }
 
 h2 {
-
+	color: #498bd1;
+	font-size: 35px;
+	font-family: 'Halant', serif;
 }
 
 h3 {
-	color: #FFFFFF;
+	color: #302e2e;
 	text-align: center;
+	font-size: 30px;
+	font-family: 'Halant', serif;
 }
 
 header {
@@ -121,14 +128,14 @@ li a:hover, .dropdown:hover {
 .newsSlides {
 	flex: 2;
 	width: 100%;
-	height: 350px;
+	height: 380px;
 	background-color: #141414;
 }
 
 #headline {
 	margin: 0;
 	flex: 1;
-	height: 300px;
+	height: 330px;
 	background-color: #191919;
 	color: #dddddd;
 	text-align: center;
@@ -170,17 +177,26 @@ li a:hover, .dropdown:hover {
 }
 
 #myFinance {
-	background-image: url("images/gbackground.png");
+	background-color: #efefef;
 	display: inline-block;
-	width: 100%;
+	width: 75%;
 }
 
 #watchlist {
-	height: 250px;
+	height: 300px;
+	color: #000000;
 }
 
 #portfolio {
-	height: 250px;
+	height: 350px;
+}
+
+#currencies {
+	width: 25%;
+	height: 710px;
+	display: inline-block;
+	background-color: #0d233a;
+	float: right;
 }
 
 .g {
@@ -191,6 +207,10 @@ li a:hover, .dropdown:hover {
 .l {
 	color: #b20707; /* Red */
 	font-size: 20px;
+}
+
+.w {
+	color: #FFFFFF;
 }
 
 .gain {
@@ -209,26 +229,37 @@ li a:hover, .dropdown:hover {
 	width: 70px;
 }
 
+.medium {
+	width: 120px;
+}
+
 .long {
-	width: 150px;
+	width: 210px;
 }
 
 table {
 	border-spacing: 0;
 	padding: 10px;
-	opacity: .6;
+	opacity: .8;
 }
 
 th {
 	text-align: center;
-	background-color: #e0e0e0;
+	background-color: #b2aeae;
 	color: #000000;
-	font-size: 18px;
+	font-size: 20px;
+	padding: 10px 5px 10px 5px;
 }
 
 td {
 	text-align: center;
 	background-color: #e0e0e0;
 	color: #000000;
-	font-size: 16px;
+	font-size: 18px;
+	padding: 4px;
+}
+
+td:hover {
+	color: #FFFFFF;
+	background-color: #0d233a;
 }
