@@ -13,31 +13,30 @@ Cycle 2 Cohort 4
 
 <header>
 	<div id="logo"><!-- FinTech Logo and Log In/Log Out Button. -->
+	<h1>FinTech</h1>
 	</div>
-		<p class="rightMsg">Hello, Francheska.<br/>Last log in: 03/23/2017</p>
-		<button id="log" type="button" value="text" onclick="changeLog()">Log out</button>
+		<!-- Name and Last log in output. Add button. -->
 	<nav><!-- Navigation Bar with Dropdown Menu. -->
-		<ul>
-		<li><a href="#" class="active">Home</a></li>
+		<li><a href="index.html" class="active">Home</a></li>
+		<li><a href="#" class="active">News</a></li>
 		<li class="dropdown"><a href="#">My Portfolio</a><!-- Dropdown -->
 	 		<div class="content">
-	  			<a href="portfolio/apple.html">Apple Inc.</a>
+	  			<a href="portfolioApple.html">Apple Inc.</a>
 	   			<a href="#">Chase Corporation</a>
 	    		<a href="#">Ford Motor Co.</a>
 	    		<a href="#">Intl. Business Machines</a>
 	    		<a href="#">The Walt-Disney Co.</a>
 	    	</div>
-		</ul>
 	</nav>
 </header>
 
 <body>
 <div class="container">
 	<!-- SlideShow of News -->
-		<img class="newsSlides" src="images/nvidia.jpeg">
-		<img class="newsSlides" src="images/ss1.jpeg">
-		<img class="newsSlides" src="images/atttw.jpg">
-		<img class="newsSlides" src="images/mario.png">
+		<img class="newsSlides" src="images/NewsNvidia.jpeg">
+		<img class="newsSlides" src="images/NewsDisney.jpeg">
+		<img class="newsSlides" src="images/NewsATT.jpg">
+		<img class="newsSlides" src="images/NewsMario.png">
 	<div class="columnContainer">
 		<div id="headline">
 			<h2 class="theNews">Will NVIDIA's (Nasdaq: NVDA) New Graphics Card Hold Off Competition</h2>
@@ -82,142 +81,241 @@ Cycle 2 Cohort 4
 <span class="gain"> RETL $32.45 &#9650; +1.41% </span>
 </marquee>
 
-<div id="myFinance">
-	<div id="watchlist"><!-- Watchlist -->
-		<h3>My Watchlist</h3>
-			<table align="center">
-				<tr>
-					<th class="long">Name</th>
-					<th class="short">Symbol</th>
-					<th class="medium">Last Price</th>
-					<th class="long">Change</th>
-					<th class="medium">Ave Volume</th>
-					<th class="short">Open</th>
-					<th class="short">High</th>
-					<th class="short">Low</th>
-				</tr>
-				<tr>
-					<td>AT&T Inc.</td>
-					<td>T</td>
-					<td>42.42</td>
-					<td class="loss">-0.17 (-0.41%)</td>
-					<td>19,525M</td>
-					<td>42.61</td>
-					<td>42.70</td>
-					<td>42.39</td>
-				</tr>
-				<tr>
-					<td>Google</td>
-					<td>GOOG</td>
-					<td>846.72</td>
-					<td class="loss">-5.40 (-0.63%)</td>
-					<td>1.337M</td>
-					<td>852.12</td>
-					<td>852.00</td>
-					<td>841.23</td>
-				</tr>
-				<tr>
-					<td>General Electric Co.</td>
-					<td>GE</td>
-					<td>29.78</td>
-					<td class="loss">-0.08 (-0.27%)</td>
-					<td>29,464M</td>
-					<td>29.88</td>
-					<td>29.79</td>
-					<td>29.70</td>
-				</tr>
-				<tr>
-					<td>The Coca-Cola Co.</td>
-					<td>KO</td>
-					<td>42.21</td>
-					<td class="gain">+0.18 (+0.43%)</td>
-					<td>14,345M</td>
-					<td>42.10</td>
-					<td>43.02</td>
-					<td>42.19</td>
-				</tr>
-				<tr>
-					<td>Toyota Motor Co.</td>
-					<td>TM</td>
-					<td>112.44</td>
-					<td class="gain">+0.23 (+0.21%)</td>
-					<td>218,738M</td>
-					<td>112.26</td>
-					<td>112.44</td>
-					<td>112.31</td>
-				</tr>
-			</table>
-		</div>
-	<div id="portfolio"><!-- Portfolio -->
+<div class="container">
+	<div id="wp"> <!-- Watchlist and Portfolio-->
+	<h3>My Watchlist</h3>
+		<table align="center">
+			<tr>
+				<th class="long">Name</th>
+				<th class="short">Symbol</th>
+				<th class="medium">Last Price</th>
+				<th class="long">Change</th>
+				<th class="medium">Ave Volume</th>
+				<th class="short">Open</th>
+				<th class="short">High</th>
+				<th class="short">Low</th>
+			</tr>
+			<tr>
+				<td>AT&T Inc.</td>
+				<td>T</td>
+				<td>42.42</td>
+				<td class="loss">-0.17 (-0.41%)</td>
+				<td>19,525M</td>
+				<td>42.61</td>
+				<td>42.70</td>
+				<td>42.39</td>
+			</tr>
+			<tr>
+				<td>Google</td>
+				<td>GOOG</td>
+				<td>846.72</td>
+				<td class="loss">-5.40 (-0.63%)</td>
+				<td>1.337M</td>
+				<td>852.12</td>
+				<td>852.00</td>
+				<td>841.23</td>
+			</tr>
+			<tr>
+				<td>General Electric Co.</td>
+				<td>GE</td>
+				<td>29.78</td>
+				<td class="loss">-0.08 (-0.27%)</td>
+				<td>29,464M</td>
+				<td>29.88</td>
+				<td>29.79</td>
+				<td>29.70</td>
+			</tr>
+			<tr>
+				<td>The Coca-Cola Co.</td>
+				<td>KO</td>
+				<td>42.21</td>
+				<td class="gain">+0.18 (+0.43%)</td>
+				<td>14,345M</td>
+				<td>42.10</td>
+				<td>43.02</td>
+				<td>42.19</td>
+			</tr>
+			<tr>
+				<td>Toyota Motor Co.</td>
+				<td>TM</td>
+				<td>112.44</td>
+				<td class="gain">+0.23 (+0.21%)</td>
+				<td>218,738M</td>
+				<td>112.26</td>
+				<td>112.44</td>
+				<td>112.31</td>
+			</tr>
+		</table>
 		<h3>My Portfolio</h3>
-			<table align="center">
-				<tr>
-					<th class="long">Name</th>
-					<th class="short">Symbol</th>
-					<th class="medium">Last Price</th>
-					<th class="long">Change</th>
-					<th class="medium">Ave Volume</th>
-					<th class="short">Open</th>
-					<th class="short">High</th>
-					<th class="short">Low</th>
+		<table align="center">
+			<tr>
+				<th class="long">Name</th>
+				<th class="short">Symbol</th>
+				<th class="medium">Last Price</th>
+				<th class="long">Change</th>
+				<th class="medium">Ave Volume</th>
+				<th class="short">Open</th>
+				<th class="short">High</th>
+				<th class="short">Low</th>
+			</tr>
+			<tr>
+				<td>
+					<a class="styleLink" href="#openGraphic">Apple Inc.</a>
+					<div id="openGraphic" class="modalDialog">
+					<img class="graphicImage" src="images/GraphicApple.png">
+					<a href="#close" title="Close" class="close">X</a>
+					</div>
+				</td>
+				<td>AAPL</td>
+				<td>140.66</td>
+				<td class="gain">+0.67 (+0.48%)</td>
+				<td>26.882M</td>
+				<td>139.99</td>
+				<td>141.61</td>
+				<td>140.93</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="styleLink" href="#openGraphic">JP Morgan Chase Co.</a>
+					<div id="openGraphic" class="modalDialog">
+					<img class="graphicImage" src="images/GraphicChase.png"></p>
+					<a href="#close" title="Close" class="close">X</a>
+					</div>
+				</td>
+				<td>CCF</td>
+				<td>97.00</td>
+				<td class="loss">-0.90 (-0.92%)</td>
+				<td>23,990M</td>
+				<td>97.20</td>
+				<td>97.15</td>
+				<td>96.05</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="styleLink" href="#openGraphic">Ford Motor Co.</a>
+					<div id="openGraphic" class="modalDialog">
+					<img class="graphicImage" src="images/GraphicFord.png">
+					<a href="#close" title="Close" class="close">X</a>
+					</div>
+				</td>
+				<td>F</td>
+				<td>12.37</td>
+				<td class="loss">-0.11 (-0.91%)</td>
+				<td>9,908M</td>
+				<td>12.48</td>
+				<td>12.48</td>
+				<td>12.36</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="styleLink" href="#openGraphic">Intl. Business Machines</a>
+					<div id="openGraphic" class="modalDialog">
+					<img class="graphicImage" src="images/GraphicIBM.png">
+					<a href="#close" title="Close" class="close">X</a>
+					</div>
+				</td>
+				<td>IBM</td>
+				<td>176.00</td>
+				<td class="loss">-0.35 (-0.20%)</td>
+				<td>3,553M</td>
+				<td>175.65</td>
+				<td>176.18</td>
+				<td>175.15</td>
 				</tr>
 				<tr>
-					<td>Apple Inc.</td>
-					<td>AAPL</td>
-					<td>140.66</td>
-					<td class="gain">+0.67 (+0.48%)</td>
-					<td>26.882M</td>
-					<td>139.99</td>
-					<td>141.61</td>
-					<td>140.93</td>
-				</tr>
-				<tr>
-					<td>Chase Corporation</td>
-					<td>CCF</td>
-					<td>97.00</td>
-					<td class="loss">-0.90 (-0.92%)</td>
-					<td>23,990M</td>
-					<td>97.20</td>
-					<td>97.15</td>
-					<td>96.05</td>
-				</tr>
-				<tr>
-					<td>Ford Motor Co.</td>
-					<td>F</td>
-					<td>12.37</td>
-					<td class="loss">-0.11 (-0.91%)</td>
-					<td>9,908M</td>
-					<td>12.48</td>
-					<td>12.48</td>
-					<td>12.36</td>
-				</tr>
-				<tr>
-					<td>Intl. Business Machines</td>
-					<td>IBM</td>
-					<td>176.00</td>
-					<td class="loss">-0.35 (-0.20%)</td>
-					<td>3,553M</td>
-					<td>175.65</td>
-					<td>176.18</td>
-					<td>175.15</td>
-				</tr>
-				<tr>
-					<td>The Walt-Disney Co.</td>
-					<td>DIS</td>
-					<td>112.76</td>
-					<td class="gain">+1.00 (+0.84%)</td>
-					<td>1,631M</td>
-					<td>112.12</td>
-					<td>113.11</td>
-					<td>112.05</td>
-				</tr>
+				<td>
+					<a class="styleLink" href="#openGraphic">The Walt-Disney Co.</a>
+					<div id="openGraphic" class="modalDialog">
+					<img class="graphicImage" src="images/GraphicDisney.png">
+					<a href="#close" title="Close" class="close">X</a>
+					</div>
+				</td>
+				<td>DIS</td>
+				<td>112.76</td>
+				<td class="gain">+1.00 (+0.84%)</td>
+				<td>1,631M</td>
+				<td>112.12</td>
+				<td>113.11</td>
+				<td>112.05</td>
+			</tr>
 			</table>
-	</div>
-</div>
-<div id="currencies">
-	<h3 class="w">Currencies</h3>
-	
-</div>
+		</div><!-- End Div of wp -->
+	<div id="currencies">
+		<h3 class="w">Currencies</h3>
+			<table align="center">
+			<tr>
+				<th class="currencyTable">US Dollar</th>
+				<th class="currencyTable">1.00 USD</th>
+			</tr>
+			<tr>
+				<td class="currencyTable">Euro</td>
+				<td class="currencyTable">0.924896</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">British Pound</td>
+				<td class="currencyTable">0.800661</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Indian Rupee</td>
+				<td class="currencyTable">65.482454</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Australian Dollar</td>
+				<td class="currencyTable">1.296064</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Canadian Dollar</td>
+				<td class="currencyTable">1.333105</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Singapore Dollar</td>
+				<td class="currencyTable">1.398319</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Swiss Franc</td>
+				<td class="currencyTable">0.992872</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Malaysian Ringgit</td>
+				<td class="currencyTable">4.425020</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Japanese Yen</td>
+				<td class="currencyTable">111.872344</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Chinese Yuan</td>
+				<td class="currencyTable">6.889293</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Philippine Peso</td>
+				<td class="currencyTable">50.087798</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">South Korean Won</td>
+				<td class="currencyTable">1119.528021</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Colombian Peso</td>
+				<td class="currencyTable">2912.166836</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Bulgarian Lev</td>
+				<td class="currencyTable">1.809200</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Russian Ruble</td>
+				<td class="currencyTable">57.678827</td>
+			</tr>
+			<tr>
+				<td class="currencyTable">Saudi Arabian Riyal</td>
+				<td class="currencyTable">3.749609</td>
+			</tr>
+		</table>
+	</div><!-- End Div of Currencies -->
+</div><!-- End Div Container -->
+<footer>
+</footer>
 <script src="myScript.js"></script><!-- External JS File -->
 </body>
 </html>
