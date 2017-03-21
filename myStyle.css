@@ -37,11 +37,12 @@ h4 {
 }
 
 h5 {
-	font-size: 35px;
+	font-size: 30px;
 }
 
 h6 {
-	font-size: 12px;
+	font-size: 20px;
+	text-align: center;
 }
 
 .type {
@@ -57,7 +58,7 @@ h6 {
 }
 
 .theNews {
-	margin-top: 70px;
+	margin-top: 75px;
 }
 
 header {
@@ -93,7 +94,7 @@ header {
 nav {
 	width: 100%;
 	padding: 0;
-	background-color: #302f2f;
+	background-color: #2d2c2c;
 	display: inline-block;
 }
 
@@ -103,7 +104,7 @@ nav li {
 }
 
 li a {
-	width: 140px;
+	width: 130px;
 	padding: 12px 8px;
 	display: block;
 	font-family: helvetica;
@@ -188,7 +189,7 @@ a {
 }
 
 .back-button, .forward-button {
-	width: 40%;
+	width: 48.5%;
 	height: 30px;
 	border: none;
 	color: #FFFFFF;
@@ -327,6 +328,18 @@ td:hover {
 
 .summary {
 	flex: 1;
+}
+
+.pictureORvideo {
+	flex: 2;
+	height: 400px;
+	background-color: #111111;
+}
+
+.information {
+	flex: 1;
+	height: 400px;
+	background-color: #FFFFFF;
 }
 
 /* Footer */
