@@ -1,3 +1,9 @@
+/*
+Francheska Guzman
+Final Project: March 23, 2017
+Cycle 2 Cohort 4
+*/
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
