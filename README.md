@@ -1,2 +1,2 @@
 # fintech
-Final Project: Financial Technology
+Final Project: The front-end of a Financial Technology Web Application.
