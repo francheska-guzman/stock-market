@@ -128,6 +128,18 @@ a {
 	text-decoration: none;
 }
 
+.styleInputText {
+	padding: 0 40px 0 0;
+	text-align: right;
+	font-size: 18px;
+}
+
+.input[type=text] {
+	text-align: left
+	font-size: 18px;
+    width: 150px;
+}
+
 .fLinks {
 	color: #a0a0a0;
 	font-size: 15px;
@@ -235,7 +247,7 @@ a {
 #wr {
 	flex: 3;
 	background-image: url("images/whitebackground.jpg");
-	height: 700px;
+	height: 750px;
 }
 
 table {
@@ -267,7 +279,7 @@ td {
 
 #currencies {
 	flex: 1;
-	height: 700px;
+	height: 750px;
 	background-color: #252626;
 }
 
