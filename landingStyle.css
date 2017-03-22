@@ -20,20 +20,24 @@ li {
 }
 
 #login {
-	margin-top: 22%;
+	margin-top: 20%;
 	width: 100%;
 }
 
 #recover {
-	margin-top: 18%;
-	text-align: center;
+	margin-top: 15%;
 	width: 100%;
-	height: 200px;
+}
+
+#firstStep {
+	height: auto;
+	width: 400px;
+	margin: auto;
 }
 
 form {
-	height: 200px;
-	width: 300px;
+	height: auto;
+	width: 320px;
 	margin: auto;
 }
 
