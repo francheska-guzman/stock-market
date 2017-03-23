@@ -12,12 +12,12 @@ Cycle 2 Cohort 4
 </head>
 
 <body onload="FinTech()">
-<!--
-<div id="fin">Fin</div>
-<div id="tech">Tech</div>
--->
-<div id="login">
 
+<div id="fintech">
+<span class="grey">Fin</span>Tech
+</div>
+
+<div id="login">
 	<form>
 		<label>Username:</label><br/>
 			<input type="text" placeholder="Enter Username" name="uname" id="input1" required><br/>
@@ -41,49 +41,14 @@ function log() {
 	}
 	else {
 		window.alert("Welcome, " + name + "! You have been successfully logged in.");
-	}
-}
-/*
-function fin {
-	var elem = document.getElementById("fin");
-	var pos = 800;
-	var id = setInterval(frame, 5);
-
-	function frame() {
-		if (pos == 500) {
-			clearInterval(id);
-			document.getElementById("fin").style.transition = "10s";
-		}
-		else {
-			pos++;
-			elem.style.right = pos + 'px';
-			elem.style.left = pos + 'px';
-		}
+		Redirect();
 	}
 }
 
-function tech {
-	var elem = document.getElementById("tech");
-	var pos = 200;
-	var id = setInterval(frame, 5);
-
-	function frame() {
-		if (pos == 500) {
-			clearInterval(id);
-			document.getElementById("tech").style.transition = "10s";
-		}
-		else {
-			pos++;
-			elem.style.left = pos + 'px';
-			elem.style.right = pos + 'px';
-		}
-	}
+function Redirect() {
+	window.location="https://gffrancheska.github.io/fintech/home";
+	setTimeout('Redirect()', 5);
 }
-
-function FinTech() {
-	fin();
-	tech();
-}*/
 
 </script>
 </body>

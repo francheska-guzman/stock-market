@@ -22,7 +22,7 @@ li {
 }
 
 #login {
-	margin-top: 20%;
+	margin-top: 50px;
 	width: 100%;
 }
 
@@ -35,6 +35,19 @@ li {
 	height: auto;
 	width: 400px;
 	margin: auto;
+}
+
+#fintech {
+	margin-top: 12%;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 70px;
+}
+
+.grey {
+	color: #bfbfbf;
+	font-size: 60px;
 }
 
 form {
@@ -122,14 +135,4 @@ a:hover {
 .signup {
 	flex: 1;
 	height: auto;
-}
-
-#fin {
-	color: #bfbfbf;
-	font-size: 40px;
-}
-
-#tech {
-	color: #FFFFFF;
-	font-size: 45px;
 }
