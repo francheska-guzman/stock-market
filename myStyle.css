@@ -45,6 +45,17 @@ h6 {
 	text-align: center;
 }
 
+.listNT {
+	color: #1c3e7c;
+	text-align: left;
+}
+
+.ND {
+	color: #1f2021;
+	text-align: justify;
+	font-size: 18px;
+}
+
 .type {
 	color: #1c1b1b;
 	font-size: 20px;
@@ -380,6 +391,10 @@ td {
 	width: 210px;
 }
 
+#listofNews {
+	background-image: url("images/backgroundWhite.jpg");
+}
+
 #company {
 	background-image: url("images/backgroundWhite.jpg");
 	background-repeat: no-repeat;
@@ -387,7 +402,7 @@ td {
 	height: 1000px;
 }
 
-.summary {
+.flex1 {
 	flex: 1;
 }
 
