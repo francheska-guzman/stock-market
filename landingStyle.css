@@ -123,3 +123,13 @@ a:hover {
 	flex: 1;
 	height: auto;
 }
+
+#fin {
+	color: #bfbfbf;
+	font-size: 40px;
+}
+
+#tech {
+	color: #FFFFFF;
+	font-size: 45px;
+}

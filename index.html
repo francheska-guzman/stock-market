@@ -10,7 +10,12 @@ Cycle 2 Cohort 4
 	<link rel="stylesheet" type="text/css" href="landingStyle.css"><!-- External CSS File. -->
 	<title>Welcome to FinTech</title>
 </head>
-<body>
+
+<body onload="FinTech()">
+<!--
+<div id="fin">Fin</div>
+<div id="tech">Tech</div>
+-->
 <div id="login">
 
 	<form>
@@ -26,6 +31,7 @@ Cycle 2 Cohort 4
 	</form>
 </div>
 <script type="text/javascript">
+
 function log() {
 	var name = document.getElementById("input1").value;
 	var pass = document.getElementById("input2").value;
@@ -37,6 +43,48 @@ function log() {
 		window.alert("Welcome, " + name + "! You have been successfully logged in.");
 	}
 }
+/*
+function fin {
+	var elem = document.getElementById("fin");
+	var pos = 800;
+	var id = setInterval(frame, 5);
+
+	function frame() {
+		if (pos == 500) {
+			clearInterval(id);
+			document.getElementById("fin").style.transition = "10s";
+		}
+		else {
+			pos++;
+			elem.style.right = pos + 'px';
+			elem.style.left = pos + 'px';
+		}
+	}
+}
+
+function tech {
+	var elem = document.getElementById("tech");
+	var pos = 200;
+	var id = setInterval(frame, 5);
+
+	function frame() {
+		if (pos == 500) {
+			clearInterval(id);
+			document.getElementById("tech").style.transition = "10s";
+		}
+		else {
+			pos++;
+			elem.style.left = pos + 'px';
+			elem.style.right = pos + 'px';
+		}
+	}
+}
+
+function FinTech() {
+	fin();
+	tech();
+}*/
+
 </script>
 </body>
 </html>
