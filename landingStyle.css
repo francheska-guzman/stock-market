@@ -13,10 +13,12 @@ h1 {
 p {
 	color: #FFFFFF;
 	text-align: center;
+	font-size: 19px;
 }
 
 li {
 	color: #FFFFFF;
+	font-size: 17px;
 }
 
 #login {
@@ -48,11 +50,19 @@ label {
 	margin: 20px 0;
 }
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=phone] {
 	font-size: 16px;
     width: 100%;
     padding: 3px;
     margin: 7px 0 7px 0;
+    display: inline-block;
+}
+
+select {
+	font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    margin: 26px 0 7px 0;
     display: inline-block;
 }
 
@@ -90,4 +100,26 @@ a {
 
 a:hover {
 	color: #dee0e2;
+}
+
+#display {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	height: 100px;
+	margin: 10px;
+}
+
+#register {
+	margin-top: 8%;
+}
+
+#container {
+	display: flex;
+	margin-top: 5%;
+}
+
+.signup {
+	flex: 1;
+	height: auto;
 }

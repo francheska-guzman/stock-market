@@ -18,13 +18,26 @@ Cycle 2 Cohort 4
 		<p>Tell us one of the following to get started:</p>
 			<li>Username</li>
 			<li>Email address</li>
-			<li>Mobile number</li><br/>
-			<input type="text" placeholder="Write here." name="uname" required><br/>
+			<li>Phone number</li><br/>
+			<input type="text" placeholder="Write here." name="uname" id="input3" required><br/>
 			<center>
-			<button type="submit" class="signU">Recover</button><br/>
+			<button type="submit" class="signU" onclick="recoverM()">Recover</button><br/>
 			<a href="index.html">Go Back.</a>
 			</center>
 	</div>
+	<div id="display"></div>
 </div>
+<script type="text/javascript">
+function recoverM() {
+	var recoverMethod = document.getElementById("input3").value;
+
+	if (recoverMethod == "") {
+		document.getElementById("display").innerHTML = "Please tell us your username, email address or phone number.";
+	}
+	else {
+		document.getElementById("display").innerHTML = "Thank you. The next step are security questions.";
+	}
+}
+</script>
 </body>
 </html>

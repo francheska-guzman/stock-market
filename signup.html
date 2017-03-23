@@ -1,0 +1,89 @@
+<!--
+Francheska Guzman
+Final Project: March 23, 2017
+Cycle 2 Cohort 4
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="landingStyle.css"><!-- External CSS File. -->
+	<title>FinTech: Sign Up</title>
+</head>
+<body>
+<div id="register">
+<h1>Create your FinTech account:</h1>
+<p></p>
+</div>
+<div id="container">
+	<div class="signup">
+		<form>
+			<label>Name: </label> <input type="text" placeholder="Enter your name." name="name" id="n" required><br/>
+			<label>Email:</label> <input type="text" placeholder="Enter your email." name="email" id="e" required><br/>
+			<label>Username:</label> <input type="text" placeholder="Username" name="usern" id="u" required><br/>
+			<label>Password:</label> <input type="text" placeholder="Password" name="psw" id="p" required><br/>
+			<label>Confirm Password:</label> <input type="text" placeholder="Confirm password." name="psw" id="c" required><br/>
+		</form>
+	</div>
+	<div class="signup">
+		<form>
+		<label>Last Name:</label> <input type="text" placeholder="Enter your last name." name="last" id="l" required><br/>
+		<label>Telephone:</label> <input type="phone" placeholder="Enter your phone number." name="phone" id="t" required><br/>
+		<select name="Security Question 1">
+   		<option value="sq1">What was the name of your elementary / primary school?</option>
+   		<option value="sq2">What is your pet's name?</option>
+   		<option value="sq3">What is your mother's maiden name?</option>
+   		<option value="sq4">What is your favorite movie?</option>
+   		<option value="sq5">What is the name of your first grade teacher?</option>
+   		<option value="sq6">What street did you grow up on?</option>
+   		<option value="sq7">What was your favorite place to visit as a child?</option>
+		</select>
+		<input type="text" placeholder="Answer" name="answer" id="a1" required><br/>
+		<select name="Security Question 2">
+   		<option value="sq1">What was the name of your elementary / primary school?</option>
+   		<option value="sq2">What is your pet's name?</option>
+   		<option value="sq3">What is your mother's maiden name?</option>
+   		<option value="sq4">What is your favorite movie?</option>
+   		<option value="sq5">What is the name of your first grade teacher?</option>
+   		<option value="sq6">What street did you grow up on?</option>
+   		<option value="sq7">What was your favorite place to visit as a child?</option>
+		</select>
+		<input type="text" placeholder="Answer" name="answer" id="a2" required><br/>
+		</form>
+	</div>
+	<div class="signup">
+	<p>Keep your account secure by choosing a good password. When creating a password, be sure to do the following:</p>
+	<li>Choose a smart password.</li>
+	<li>Do not use a password you already use on another site.</li>
+	<li>Do not reuse this password on another site.</li>
+	<li>Use at least eight characters.</li>
+	<li>Include numbers, symbols, capital letters, and lower-case letters.</li>
+	</div>
+</div>
+	<center>
+		<button type="submit" class="signU" onclick="r()">Sign Up</button><br/>
+		<a href="index.html">Go Back.</a>
+		<div id="display"></div>
+	</center>
+<script type="text/javascript">
+function r() {
+	var n = document.getElementById("n").value;
+	var e = document.getElementById("e").value;
+	var u = document.getElementById("u").value;
+	var p = document.getElementById("p").value;
+	var c = document.getElementById("c").value;
+	var l = document.getElementById("l").value;
+	var t = document.getElementById("t").value;
+	var a1 = document.getElementById("a1").value;
+	var a2 = document.getElementById("a2").value;
+
+	if (n == "" || e == "" || u == "" || p == "" || c == "" || l == "" || t == "" || a1 == "" || a2 == "") {
+		document.getElementById("display").innerHTML = "Please fill out all fields.";
+	}
+	else {
+		document.getElementById("display").innerHTML = "Congratulations " + n + "! You have now successfully registered for FinTech.";
+	}
+}
+</script>
+</body>
+</html>

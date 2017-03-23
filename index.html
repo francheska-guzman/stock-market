@@ -15,17 +15,28 @@ Cycle 2 Cohort 4
 
 	<form>
 		<label>Username:</label><br/>
-			<input type="text" placeholder="Enter Username" name="uname" required><br/>
+			<input type="text" placeholder="Enter Username" name="uname" id="input1" required><br/>
 		<label>Password:</label><br/>
-			<input type="password" placeholder="Enter Password" name="psw" required><br/>
+			<input type="password" placeholder="Enter Password" name="psw" id="input2" required><br/>
 			<center>
-			<button type="submit" class="signU">Sign Up</button>
 			<button type="submit" class="logI" onclick="log()">Log In</button><br/>
 			<a href="recoverpsw.html">Forgot my password.</a>
+			<p>Don't have an account? <a href="signup.html">Sign Up.</a></p>
 			</center>
 	</form>
-
 </div>
-	<script src="myScript.js"></script><!-- External JS File -->
+<script type="text/javascript">
+function log() {
+	var name = document.getElementById("input1").value;
+	var pass = document.getElementById("input2").value;
+
+	if (name == "" || pass == "") {
+		window.alert("Please enter your username and password.");
+	}
+	else {
+		window.alert("Welcome, " + name + "! You have been successfully logged in.");
+	}
+}
+</script>
 </body>
 </html>
