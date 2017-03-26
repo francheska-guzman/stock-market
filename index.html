@@ -11,37 +11,40 @@ Cycle 2 Cohort 4
 	<title>Welcome to FinTech</title>
 </head>
 
-<body onload="FinTech()">
-
+<body>
 <div id="fintech">
-<span class="grey">Fin</span>Tech
+	<span class="grey">Fin</span>Tech
 </div>
-
 <div id="login">
 	<form>
+	<!-- Given an id for username and password is necessary to identify the input
+	in the JavaScript function. The function log() runs when user click the button. -->
 		<label>Username:</label><br/>
 			<input type="text" placeholder="Enter Username" name="uname" id="input1" required><br/>
 		<label>Password:</label><br/>
 			<input type="password" placeholder="Enter Password" name="psw" id="input2" required><br/>
-			<center>
-			<button type="submit" class="logI" onclick="log()">Log In</button><br/>
-			<a href="recoverpsw.html">Forgot my password.</a>
-			<p>Don't have an account? <a href="signup.html">Sign Up.</a></p>
-			</center>
+				<center>
+				<button type="submit" class="logI" onclick="log()">Log In</button><br/>
+				<a href="recoverpsw.html">Forgot my password.</a>
+				<p>Don't have an account? <a href="signup.html">Sign Up.</a></p>
+				</center>
 	</form>
 </div>
 <script type="text/javascript">
-
 function log() {
 	var name = document.getElementById("input1").value;
 	var pass = document.getElementById("input2").value;
 
+	/* The if statement verifies if user did not enter a username OR password. 
+	User have to try again. */
 	if (name == "" || pass == "") {
 		window.alert("Please enter your username and password.");
 	}
+	/* Otherwise, user receive a welcome message in a window alert, and after close it, 
+	user will be redirected automatically to the homepage. */
 	else {
 		window.alert("Welcome, " + name + "! You have been successfully logged in.");
-		Redirect();
+		Redirect(); /* Call the function to redirect user. */
 	}
 }
 
@@ -49,7 +52,6 @@ function Redirect() {
 	window.location="https://gffrancheska.github.io/fintech/home";
 	setTimeout('Redirect()', 0);
 }
-
 </script>
 </body>
 </html>
