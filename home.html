@@ -78,6 +78,10 @@ Cycle 2 Cohort 4
 	</div>
 </div>
 
+<!-- Marquee scroll continuously, from right to left, and the velocity 
+(amount of scrolling at each interval in pixels) is 3. The class "loss" 
+is red and the class "gain" is green. The HTML character code &#9660; 
+is a down-pointing triangle and &#9650; is an up-pointing triangle symbol. -->
 <marquee id="stockTickerTape" behavior="scroll" direction="left" scrollamount="3">
 <span class="loss"> JPM $90.68 &#9660; -1.05% </span>
 <span class="gain"> MSFT $64.87 &#9650; +0.36% </span>
@@ -96,6 +100,12 @@ Cycle 2 Cohort 4
 <span class="gain"> RETL $32.45 &#9650; +1.41% </span>
 </marquee>
 
+<!-- The first table is the user portfolio, and is the most important table
+because is the user's own investment. It have a different color than the other
+tables because I assigned a class to it, so I managed it separated. The
+reason that I used a class instead an id, is because in the real life a page
+continues growing and maybe you want to use it again in the future for
+mortgate rates, mutual funds, etc. -->
 <div id="portTable">
 	<h3 class="w">Portfolio</h3>
 		<table class="tBlack" align="center">
@@ -207,7 +217,6 @@ Cycle 2 Cohort 4
 			</tr>
 			</table>
 </div>
-
 
 <div class="container">
 	<div id="wr"> <!-- Recently Viewed -->
@@ -422,24 +431,23 @@ Cycle 2 Cohort 4
 
 <footer>
 <div class="container">
-<div class="flex1">
-	<a class="fLinks" href="#">About Us</a><br/>
-	<a class="fLinks" href="#">Privacy Statement</a><br/>
-	<a class="fLinks" href="#">Careers</a>
-</div>
-<div class="flex1">
-	<a class="fLinks" href="#">Financial Consultation</a><br/>
-	<a class="fLinks" href="#">Site Map</a><br/>
-	<a class="fLinks" href="#">FAQs</a>
-</div>
-<div class="flex1">
-	<a class="fLinks" href="#">Contact Us</a><br/>
-	<a class="fLinks" href="#">Terms</a><br/>
-	<a class="fLinks" href="#">Privacy</a>
-</div>
+	<div class="flex1">
+		<a class="fLinks" href="#">About Us</a><br/>
+		<a class="fLinks" href="#">Privacy Statement</a><br/>
+		<a class="fLinks" href="#">Careers</a>
+	</div>
+	<div class="flex1">
+		<a class="fLinks" href="#">Financial Consultation</a><br/>
+		<a class="fLinks" href="#">Site Map</a><br/>
+		<a class="fLinks" href="#">FAQs</a>
+	</div>
+	<div class="flex1">
+		<a class="fLinks" href="#">Contact Us</a><br/>
+		<a class="fLinks" href="#">Terms</a><br/>
+		<a class="fLinks" href="#">Privacy</a>
+	</div>
 </div>
 </footer>
-
-<script src="myScript.js"></script><!-- External JS File -->
+	<script src="myScript.js"></script><!-- External JS File -->
 </body>
 </html>
