@@ -1,4 +1,4 @@
-# fintech
+# FinTech
 Final Project: The front-end of a Financial Technology Web Application.
 
 <b>Instructions</b>
