@@ -2,9 +2,9 @@
 
 ### Per Scholas' Final Project
 
-#### The front-end of a Financial Technology Web Application
+The front-end of a Financial Technology Web Application
 
-<b>Instructions</b>
+#### Instructions:
 
 1. Visit the "Forgot my password" and "Sign up" links, and see what happens when you don't fill out all fields, and when you fill it.
 
