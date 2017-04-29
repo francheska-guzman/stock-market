@@ -1,5 +1,8 @@
-# FinTech: The front-end of a Financial Technology Web Application
+# FinTech
+
 ### Per Scholas' Final Project
+
+#### The front-end of a Financial Technology Web Application
 
 <b>Instructions</b>
 
