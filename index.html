@@ -8,12 +8,12 @@ Cycle 2 Cohort 4
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="landingStyle.css"><!-- External CSS File. -->
-	<title>Welcome to FinTech</title>
+	<title>Welcome to the Stock Market</title>
 </head>
 
 <body>
 <div id="fintech">
-	<span class="grey">Fin</span>Tech
+	<span class="grey">Stock</span>Market
 </div>
 <div id="login">
 	<form>
@@ -44,14 +44,10 @@ function log() {
 	user will be redirected automatically to the homepage. */
 	else {
 		window.alert("Welcome, " + name + "! You have been successfully logged in.");
-		Redirect(); /* Call the function to redirect user. */
+		window.location.href = "https://francheska-guzman.github.io/stock-market/home";
 	}
 }
 
-function Redirect() {
-	window.location="https://gffrancheska.github.io/fintech/home";
-	setTimeout('Redirect()', 0);
-}
 </script>
 </body>
 </html>
