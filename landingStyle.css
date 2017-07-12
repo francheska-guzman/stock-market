@@ -65,6 +65,11 @@ li {
 	font-size: 60px;
 }
 
+.greysmall {
+	color: #bfbfbf;
+	font-size: 20px;
+}
+
 form {
 	height: auto;
 	width: 320px;
