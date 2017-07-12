@@ -32,6 +32,10 @@ li {
 	font-size: 17px;
 }
 
+.center {
+	text-align: center;
+}
+
 #login {
 	margin-top: 50px;
 	width: 100%;
