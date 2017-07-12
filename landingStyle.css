@@ -15,6 +15,11 @@ h1 {
 	font-size: 58px;
 }
 
+h2 {
+	font-family: 'Merriweather+Sans', sans-serif;
+	font-size: 30px;
+}
+
 p {
 	color: #FFFFFF;
 	text-align: center;
