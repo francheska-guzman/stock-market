@@ -71,7 +71,7 @@ h6 {
 
 header {
 	width: 100%;
-	background-image: url("images/fintech.jpg");
+	background-image: url("../images/fintech.jpg");
 	background-repeat: none;
 	display: block;
 }
@@ -252,7 +252,7 @@ a {
 
 #wr {
 	flex: 3;
-	background-image: url("images/backgroundWhite.jpg");
+	background-image: url("../images/backgroundWhite.jpg");
 	height: 800px;
 }
 
@@ -385,7 +385,7 @@ td {
 }
 
 #listofNews {
-	background-image: url("images/backgroundBlack.jpg");
+	background-image: url("../images/backgroundBlack.jpg");
 	width: 100%;
 	padding: 50px 0 50px 0;
 }
@@ -404,7 +404,7 @@ td {
 }
 
 #company {
-	background-image: url("images/backgroundWhite.jpg");
+	background-image: url("../images/backgroundWhite.jpg");
 	background-repeat: no-repeat;
 	padding: 20px 0 0 50px;
 	height: 1000px;
@@ -416,7 +416,7 @@ td {
 
 #news {
 	display: inline-block;
-	background-image: url("images/backgroundWhite.jpg");
+	background-image: url("../images/backgroundWhite.jpg");
 	font-size: 18px;
 	color: #000000;
 	height: auto;

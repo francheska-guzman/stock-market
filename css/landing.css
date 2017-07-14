@@ -3,7 +3,7 @@
 
 body {
 	margin: 0;
-	background-image: url("images/backgroundBlack.jpg");
+	background-image: url("../images/backgroundBlack.jpg");
 	width: 100%;
 	height: 100%;
 	font-family: 'Source Sans Pro', sans-serif;

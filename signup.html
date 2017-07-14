@@ -7,7 +7,7 @@ Cycle 2 Cohort 4
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="landingStyle.css"><!-- External CSS File. -->
+	<link rel="stylesheet" type="text/css" href="./css/landing.css"><!-- External CSS File. -->
 	<title>Sign Up</title>
 </head>
 <body>
@@ -64,25 +64,6 @@ Cycle 2 Cohort 4
 		<a href="index.html">Go Back.</a>
 		<div id="display"></div>
 	</center>
-<script type="text/javascript">
-function r() {
-	var n = document.getElementById("n").value;
-	var e = document.getElementById("e").value;
-	var u = document.getElementById("u").value;
-	var p = document.getElementById("p").value;
-	var c = document.getElementById("c").value;
-	var l = document.getElementById("l").value;
-	var t = document.getElementById("t").value;
-	var a1 = document.getElementById("a1").value;
-	var a2 = document.getElementById("a2").value;
-
-	if (n == "" || e == "" || u == "" || p == "" || c == "" || l == "" || t == "" || a1 == "" || a2 == "") {
-		document.getElementById("display").innerHTML = "Please fill out all fields.";
-	}
-	else {
-		document.getElementById("display").innerHTML = "Congratulations " + n + "! You have now successfully registered for FinTech.";
-	}
-}
-</script>
+	<script src="script.js"></script><!-- External JS File -->
 </body>
 </html>
