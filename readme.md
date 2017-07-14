@@ -15,7 +15,7 @@ Developed by Francheska Guzman
 
 ## <a id="description">Description</a>
 
-The front-end of a Financial Technology Web Application focused on the Stock Market.
+The front-end of a Financial Technology Web Application focused on the Stock Market. Currently working in a redesigned, dynamic version of this project, [Brokerage](https://github.com/francheska-guzman/brokerage).
 
 ## <a id="instructions">How to use</a>
 
