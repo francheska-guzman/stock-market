@@ -9,6 +9,7 @@ body {
 	background-color: #141414;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	font-family: 'Halant', serif;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Halant|Merriweather+Sans|Prompt|Source+Sans+Pro');
@@ -439,6 +440,7 @@ td {
 	font-size: 17px;
 	color: #050505;
 	padding: 0 50px 0 50px;
+	font-family: 'Halant', serif;
 }
 
 .quote {
@@ -458,7 +460,10 @@ footer {
 	display: block;
 	width: 100%;
 	height: auto;
-	padding: 20px;
+}
+
+.pad {
+	padding: 40px;
 }
 
 .footer-info {
