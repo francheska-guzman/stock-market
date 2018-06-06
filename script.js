@@ -37,7 +37,7 @@ function log() {
 	/* The if statement verifies if user did not enter an username OR password. 
 	User have to try again. */
 	if (name == "" || pass == "") {
-		window.alert("Please enter your username and password.");
+		window.alert("Please enter your username and password. Hint: This website doesn't have authentication... Write anything in both input fields to access the Stock Market homepage.");
 	}
 	/* Otherwise, user receive a welcome message in a window alert, and after close it, 
 	user will be redirected automatically to the homepage. */
@@ -54,7 +54,7 @@ function recoverM() {
 		document.getElementById("display").innerHTML = "Please tell us your username, email address or phone number.";
 	}
 	else {
-		document.getElementById("display").innerHTML = "Thank you. The next step are security questions.";
+		document.getElementById("display").innerHTML = "Thank you. The next step is answer the security questions.";
 	}
 }
 
