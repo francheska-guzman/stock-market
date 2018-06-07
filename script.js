@@ -37,7 +37,7 @@ function log() {
 	/* The if statement verifies if user did not enter an username OR password. 
 	User have to try again. */
 	if (name == "" || pass == "") {
-		window.alert("Please enter your username and password. Hint: This website doesn't have authentication, so just write anything in both input fields to get access to the Stock Market homepage. :)");
+		window.alert('Hint: This website doesn\'t have authentication, so just type any "username" and "password" to get access to the Stock Market homepage. :)');
 	}
 	/* Otherwise, user receive a welcome message in a window alert, and after close it, 
 	user will be redirected automatically to the homepage. */
